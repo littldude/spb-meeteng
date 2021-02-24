@@ -1130,13 +1130,12 @@ a {
         font-size: 22px;
         line-height: 29px;
         &--intro {
-            width: auto;
-            padding: 0 4%;
+            width: 361px;
             .yellow {
                 &::before {
                     width: 235px;
                     height: 23px;
-                    left: 76px;
+                    left: 62px;
                     top: 44px;
                 }
             }

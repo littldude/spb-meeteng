@@ -953,13 +953,12 @@ a {
     line-height: 29px;
   }
   .subtitle--intro {
-    width: auto;
-    padding: 0 4%;
+    width: 361px;
   }
   .subtitle--intro .yellow::before {
     width: 235px;
     height: 23px;
-    left: 76px;
+    left: 62px;
     top: 44px;
   }
   .subtitle--program {
