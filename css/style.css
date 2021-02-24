@@ -936,12 +936,13 @@ a {
     padding: 20px 0;
   }
   .title--autor {
-    padding: 0 17%;
+    width: 257px;
+    margin: 0 auto;
   }
   .title--autor::before {
     width: 255px;
     height: 30px;
-    left: 64px;
+    left: 1px;
     top: 57px;
   }
   .title--price {
@@ -1073,9 +1074,6 @@ a {
     width: 90%;
   }
 
-  .title--autor::before {
-    left: 48px;
-  }
   .title--price {
     font-size: 46px;
     line-height: 60px;
@@ -1086,6 +1084,11 @@ a {
   }
   .buy::after {
     top: 385px;
+  }
+
+  .video__item {
+    width: 290px;
+    height: 159px;
   }
 }
 @media (max-width: 320px) {
@@ -1112,13 +1115,6 @@ a {
   .video__item {
     width: 290px;
     height: 159px;
-  }
-
-  .title--autor {
-    padding: 0 10%;
-  }
-  .title--autor::before {
-    left: 22px;
   }
 
   .buy::before {

@@ -1114,11 +1114,12 @@ a {
             padding: 20px 0;
         }
         &--autor {
-            padding: 0 17%;
+            width: 257px;
+            margin: 0 auto;
             &::before {
                 width: 255px;
                 height: 30px;
-                left: 64px;
+                left: 1px;
                 top: 57px;
             }
         }
@@ -1277,11 +1278,6 @@ a {
         }
     }
     .title {
-        &--autor {
-            &::before {
-                left: 48px;
-            }
-        }
         &--price {
             font-size: 46px;
             line-height: 60px
@@ -1293,6 +1289,12 @@ a {
         }
         &::after {
             top: 385px;
+        }
+    }
+    .video {
+        &__item {
+            width: 290px;
+            height: 159px;
         }
     }
 }
@@ -1334,14 +1336,6 @@ a {
         &__item {
             width: 290px;
             height: 159px;
-        }
-    }
-    .title {
-        &--autor {
-            padding: 0 10%;
-            &::before {
-                left: 22px;
-            }
         }
     }
     .buy {
