@@ -841,6 +841,13 @@ a {
   .text--program {
     font-size: 18px;
   }
+  .text--intro {
+    font-size: 22px;
+    line-height: 32px;
+    padding: 0 0 20px 0;
+    width: 300px;
+    margin: 0 auto;
+  }
 
   .title {
     font-size: 44px;
@@ -912,8 +919,20 @@ a {
     left: 78px;
   }
   .buy::after {
-    top: 500px;
-    right: 48px;
+    top: 513px;
+    right: 25px;
+  }
+}
+@media (max-width: 559px) {
+  .title--autor {
+    width: 316px;
+    margin: 0 auto;
+  }
+  .title--autor::before {
+    width: 317px;
+    height: 30px;
+    left: -1px;
+    top: 75px;
   }
 }
 @media (max-width: 414px) {
@@ -973,11 +992,6 @@ a {
     font-size: 17px;
     line-height: 22px;
   }
-  .text--intro {
-    font-size: 22px;
-    line-height: 32px;
-    padding: 0 0 20px 0;
-  }
   .text--location {
     text-align: left;
   }
@@ -1033,8 +1047,8 @@ a {
     left: 45px;
   }
   .buy::after {
-    top: 370px;
-    right: 48px;
+    top: 390px;
+    right: 20px;
   }
 
   .footer {
@@ -1091,12 +1105,12 @@ a {
     height: 159px;
   }
 }
-@media (max-width: 320px) {
-  .text--intro {
-    width: auto;
-    padding: 3% 12%;
+@media (max-width: 341px) {
+  .buy::after {
+    top: 411px;
   }
-
+}
+@media (max-width: 320px) {
   .subtitle--intro .yellow::before {
     width: 235px;
     height: 23px;

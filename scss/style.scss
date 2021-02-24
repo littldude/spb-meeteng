@@ -996,7 +996,14 @@ a {
    .text {
        &--program {
            font-size: 18px;
-       }
+        }
+        &--intro {
+            font-size: 22px;
+            line-height: 32px;
+            padding: 0 0 20px 0;
+            width: 300px;
+            margin: 0 auto;
+        }
    }
    .title {
        font-size: 44px;
@@ -1007,7 +1014,7 @@ a {
                 width: 532px;
                 height: 30px;
                 top: 25px;
-           }
+            }
         }
         &--price {
             font-size: 46px;
@@ -1085,8 +1092,22 @@ a {
             left: 78px;
         }
         &::after {
-            top: 500px;
-            right: 48px;
+            top: 513px;
+            right: 25px;
+        }
+    }
+}
+@media (max-width: 559px) {
+    .title {
+        &--autor {
+            width: 316px;
+            margin: 0 auto;
+            &::before {
+                width: 317px;
+                height: 30px;
+                left: -1px;
+                top: 75px;
+            }
         }
     }
 }
@@ -1151,11 +1172,6 @@ a {
     .text {
         font-size: 17px;
         line-height: 22px;
-        &--intro {
-            font-size: 22px;
-            line-height: 32px;
-            padding: 0 0 20px 0;
-        }
         &--location {
             text-align: left;
         }
@@ -1225,8 +1241,8 @@ a {
             left: 45px;
         }
         &::after {
-            top: 370px;
-            right: 48px;
+            top: 390px;
+            right: 20px;
         }
     }
     .footer {
@@ -1298,13 +1314,14 @@ a {
         }
     }
 }
-@media (max-width: 320px) {
-    .text {
-        &--intro {
-            width: auto;
-            padding: 3% 12%
+@media (max-width: 341px) {
+    .buy {
+        &::after {
+            top: 411px;
         }
     }
+}
+@media (max-width: 320px) {
     .subtitle {
         &--intro {
             .yellow {
